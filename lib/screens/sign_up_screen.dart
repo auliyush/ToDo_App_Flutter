@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:newtodo/models/color.dart';
 import 'package:newtodo/screens/login_screen.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -166,16 +167,16 @@ class _SignUpState extends State<SignUp> {
                                         context);
                                   },
                                   style: ElevatedButton.styleFrom(
-                                    padding: const EdgeInsets.symmetric(vertical: 15),
-                                    backgroundColor: Colors.deepPurple,
+                                    padding: const EdgeInsets.symmetric(vertical: 13),
+                                    backgroundColor: bColour,
                                     shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.circular(10),
                                     ),
                                   ),
                                   child: const Text(
-                                    style: TextStyle(fontSize: 18,
+                                    style: TextStyle(fontSize: 20,
                                         fontWeight: FontWeight.bold,
-                                        color: Colors.white70),
+                                        color: Colors.black38),
                                     'Sign Up',
                                   ),
                                 ),

@@ -1,8 +1,11 @@
-# newtodo
+# Your ToDo
 
 A new Flutter project.
 
 ## Getting Started
+
+Their backend is connected to localhost ngrok so first run backend and
+generate url and then apply in mainUrl in mainPage
 
 This project is a starting point for a Flutter application.
 
